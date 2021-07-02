@@ -1,0 +1,67 @@
+.thumbnail{
+    width:100%;
+    border-radius: 10px;
+    background-color: aliceblue;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;;
+    
+    
+}
+.home{background-color: rgb(5, 1, 1);
+      border-radius: 10px;
+      border:0px;
+      color:white }
+.font{
+    font-weight: 500;
+}
+.view{margin-left: 8px;}
+
+.container1{
+ padding:20px;
+ margin-top:70px;
+ margin-left: 215px;
+}
+.images{
+    height:170px;
+    margin-bottom: 20px;
+    
+   
+}
+.border{
+    border:1px solid #045575;
+    width:88px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #045575;
+    margin-left:7px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 13px;
+    color:white;
+}
+.border2{
+    border:1px solid #f38CAC;
+    width:88px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f38CAC;
+    margin-left:7px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 13px;
+    color:white;
+}
+.zoom:hover{
+    transform:scale(1.2);
+}
+
+.border3{
+   
+    border:1px solid #90ee90;
+    width:88px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #90ee90;
+    margin-left:7px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 13px;
+    color:white;
+}
+

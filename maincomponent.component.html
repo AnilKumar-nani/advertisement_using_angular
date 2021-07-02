@@ -1,0 +1,61 @@
+
+        <div class="container1">
+            <div *ngIf="home" class="container">
+            <div class="row">
+              <!-->  <div class="col-3"></div> -->
+                
+                <div class="col-sm-6 col-md-3 zoom" >
+             <div class="thumbnail caption">
+                <img class= "images" src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/06/18/980180-pubg-battlegrounds-india.jpg" height="100%" width="100%">
+                <div class="border">
+                <b>GAMING</b>
+                </div>
+               
+                  <h3 class="font">Battlegrounds Mobile India</h3>
+                  <p>Battlegrounds Mobile India is available for pre-registration on the Google Play Store for Beta Testers.</p>
+                    <p><button (click)="login(1)" class="btn btn-outline btn-warning view" role="button" target="self">view more</button></p>
+              
+              </div>
+                </div>
+                <div class="col-sm-6 col-md-3 zoom">
+              <div class="shadow thumbnail caption">
+                <img class ="images" src="https://images.livemint.com/img/2021/06/18/600x338/2021-06-17T133042Z_1046402456_RC2D2O989FK3_RTRMADP_3_SOCCER-EURO-UEFA_1623992768649_1623992781852.JPG" width="100%">
+                <div class="border2">
+                    <b>SPORTS</b>
+                    </div>
+                  <h3 class="font">Cristiano Ronaldo-Coca Cola Controversy</h3>
+                  <p>The simple action sent Coca-Cola's shares tumbling from $56.10 to $55.22 by the end of the press conference</p>
+                    <p><button (click)="login(2)" class="btn btn-secondary btn-danger view" role="button">view more</button></p>
+                
+              </div>
+              </div>
+              <div class="col-sm-6 col-md-3 zoom">
+              <div class="thumbnail caption">
+                <img class="images" src="https://fdn.gsmarena.com/imgroot/news/21/05/oneplus-8t-discount-offer-us/-315/gsmarena_002.jpg" alt="Skyrim">
+                <div class="border3">
+                    <b>MOBILES</b>
+                    </div>
+                   
+                  <h3 class="font">OxygenOS Open Beta 11</h3>
+                  <p>OnePlus 8 series gets June security patch and AOD screenshot function with the latest Open Beta</p>
+                    <p><button (click)="login(3)" class="btn btn-primary view" role="button">view more</button></p>
+               
+              </div>
+              </div>
+              </div>
+            </div>
+            <div>
+            <div *ngIf ="pubg">
+                <button class="home" (click)="homecontent()">Home</button>
+                <app-pubg></app-pubg>
+            </div>
+            <div *ngIf ="ronald">
+                <button class="home" (click)="homecontent()">Home</button>
+                <app-ronald></app-ronald>
+            </div>
+            <div *ngIf="oneplus">
+                <button  class="home" (click)="homecontent()">Home</button>
+                <app-onplus></app-onplus>
+            </div>
+            </div>
+            </div>
